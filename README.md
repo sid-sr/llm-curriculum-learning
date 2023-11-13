@@ -1,1 +1,5 @@
 # Curriculum Learning on Language Models
+
+1. perplexity_lstm_training.ipynb: Based on https://arxiv.org/pdf/2110.02406.pdf, trains a BILSTM to generate surprisals for each word at fixed checkpoints. (Run on Colab). [Author's code](https://github.com/tylerachang/word-acquisition-language-models/).
+2. wordbank_bilstm_aoa_analysis.ipynb: Also based on https://arxiv.org/pdf/2110.02406.pdf, compares their provided LSTM AoAs with AO-CHILDES ground truth AoA.
+3. portelance_aoa_analysis.ipynb: Based on https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13334, uses their LSTM (and unigram, bigram etc.) surprisals as predictors for AoA (obtained for AO-CHILDES words). Does not train language models, we already have the result files from their code [Author's code](https://github.com/evaportelance/multilingual-aoa-prediction).
