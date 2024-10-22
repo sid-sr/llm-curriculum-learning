@@ -1,5 +1,5 @@
 # Curriculum Learning on Language Models
-<h4>[Report](https://github.com/sid-sr/llm-curriculum-learning/blob/master/Curriculum_Learning_Report.pdf) </h4>
+[Report](https://github.com/sid-sr/llm-curriculum-learning/blob/master/Curriculum_Learning_Report.pdf)
 <h3>Notebooks in the "scripts" folder:</h3>
 1. perplexity_lstm_training.ipynb: Based on https://arxiv.org/pdf/2110.02406.pdf, trains a BILSTM to generate surprisals for each word at fixed checkpoints. (Run on Colab). [Author's code](https://github.com/tylerachang/word-acquisition-language-models/).
 2. wordbank_bilstm_aoa_analysis.ipynb: Also based on https://arxiv.org/pdf/2110.02406.pdf, compares their provided LSTM AoAs with AO-CHILDES ground truth AoA.
